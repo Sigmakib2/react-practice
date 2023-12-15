@@ -1,0 +1,39 @@
+.topnav {
+  overflow: hidden;
+  background-color: #dd7272;
+  border-radius: 30px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  padding: 20px;
+}
+
+.topnav a {
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  border-radius: 30px;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2f302f;
+  border-radius: 20px;
+  color: white;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 20px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
