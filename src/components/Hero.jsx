@@ -6,7 +6,7 @@ export default function Hero() {
             <div className="top-left">Top Left</div>
             <div className="top-right">Top Right</div>
             <div className="bottom-right">Bottom Right</div>
-            <div className="centered">Centered</div>
+            <div className="centered">ceeeentered</div>
         </div>
     )
 }
