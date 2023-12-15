@@ -7,7 +7,6 @@ export default function Header() {
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </div>
-      <img src="/src/assets/spawn.png" className="responsive" />
     </header>
   )
 }
