@@ -1,7 +1,12 @@
 export default function Hero() {
     return (
-        <div>
-            <img src="https://dynamiccraft.xyz/photo/season8/spawn.png" alt="Nature" className="responsive" width="600" height="400"/>
+        <div className="container">
+            <img className="hero-img" src="/public/spawn.png" alt=""/>
+            <div className="bottom-left">Bottom Left</div>
+            <div className="top-left">Top Left</div>
+            <div className="top-right">Top Right</div>
+            <div className="bottom-right">Bottom Right</div>
+            <div className="centered">Centered</div>
         </div>
     )
 }
