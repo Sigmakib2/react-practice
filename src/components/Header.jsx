@@ -7,7 +7,7 @@ export default function Header() {
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
       </div>
-      <img src="/public/spawn.png" alt="Nature" className="responsive" />
+      <img src="/src/assets/spawn.png" className="responsive" />
     </header>
   )
 }
