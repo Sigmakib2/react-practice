@@ -6,7 +6,7 @@ export default function Topnav() {
   return (
     <nav>
     <Link to="/" className="title">
-      Website
+      <img src="/images/dynamiccraft-logo - Copy.png" width="100px" height="auto"/>
     </Link>
     <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
       <span></span>
@@ -14,6 +14,9 @@ export default function Topnav() {
       <span></span>
     </div>
     <ul className={menuOpen ? "open" : ""}>
+      <li>
+        <NavLink to="/maps">Maps</NavLink>
+      </li>
       <li>
         <NavLink to="/about">About</NavLink>
       </li>

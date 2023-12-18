@@ -1,23 +1,32 @@
-.active{
-    background-color: #1d4ed8;
+.active {
+    background-color: #789cff;
 }
 
 nav {
     display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f172a;
     color: white;
     position: sticky;
     top: 0;
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(255, 255, 255, 0.33);
 }
 
 nav .title {
-    font-size: 1.5rem;
-    margin: 1rem;
     font-weight: bold;
     text-decoration: none;
     color: white;
+    margin-bottom: -5px;
 }
 
 nav ul {
@@ -25,7 +34,7 @@ nav ul {
 }
 
 nav ul li {
-   list-style: none; 
+    list-style: none;
 }
 
 nav ul li a {
@@ -38,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:#172554 ;
+    background-color: #8aa5ff;
 }
 
 nav .menu {
