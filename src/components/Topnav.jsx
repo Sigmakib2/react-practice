@@ -9,9 +9,7 @@ export default function Topnav() {
       <img src="/images/dynamiccraft-logo - Copy.png" width="100px" height="auto"/>
     </Link>
     <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-      <span></span>
-      <span></span>
-      <span></span>
+      <img src="/vite.svg" alt="" srcset="" />
     </div>
     <ul className={menuOpen ? "open" : ""}>
       <li>
