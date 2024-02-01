@@ -17,16 +17,16 @@ export default function Topnav() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <img src="/src/assets/map.svg" alt="map" className="f-icon" />
+          <img src="/assets/map.svg" alt="map" className="f-icon" />
           <NavLink to="/maps">Maps</NavLink>
         </li>
         <li>
-        <img src="/src/assets/rank.svg" alt="rank" className="f-icon" />
+        <img src="/assets/rank.svg" alt="rank" className="f-icon" />
           <NavLink to="/about">Ranks</NavLink>
         </li>
         <li>
-        <img src="/src/assets/vote.svg" alt="vote" className="f-icon" />
-          <NavLink to="/stats">Stats</NavLink>
+        <img src="/assets/vote.svg" alt="vote" className="f-icon" />
+          <NavLink to="/stats">Vote</NavLink>
         </li>
       </ul>
     </nav>
