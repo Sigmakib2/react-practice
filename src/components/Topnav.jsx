@@ -13,7 +13,7 @@ export default function Topnav() {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <img src="/src/assets/home.svg" alt="Home" className="f-icon"  />
+          <img src="/assets/home.svg" alt="Home" className="f-icon"  />
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
