@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import "./Home.css"
+import "./Hero.css"
 
-export default function Home() {
+export default function Hero() {
     const [showPopup, setShowPopup] = useState(false);
 
     const handleCopyToClipboard = () => {
@@ -32,13 +32,15 @@ export default function Home() {
                         <button onClick={handleCopyToClipboard} className="copyip" ><span id="myText">IP: play.dynamiccraft.xyz</span></button>
                         {showPopup && (
                             <div className="popup">
-                                <p onClick={closePopup}>IP copied to clipboard <b onClick={closePopup}>🔥</b></p>
+                                <div style={{ display: 'flex', alignItems: 'center' }} onClick={closePopup}>
+                                    <img src='/assets/msg.svg' style={{ marginRight: '8px' }} />
+                                    <p><b>IP copied</b> to clipboard 🔥 <small>click to close!</small></p>
+                                </div>
                             </div>
                         )}
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }

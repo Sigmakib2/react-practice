@@ -22,11 +22,11 @@ export default function Topnav() {
         </li>
         <li>
         <img src="/assets/rank.svg" alt="rank" className="f-icon" />
-          <NavLink to="/about">Ranks</NavLink>
+          <NavLink to="/ranks">Ranks</NavLink>
         </li>
         <li>
         <img src="/assets/vote.svg" alt="vote" className="f-icon" />
-          <NavLink to="/stats">Vote</NavLink>
+          <NavLink to="/vote">Vote</NavLink>
         </li>
       </ul>
     </nav>

@@ -1,9 +1,7 @@
 .active {
     border-radius: 5px;
-    border-style: dotted;
+    border-style:groove;
     border-width: .5px;
-    
-    
 }
 .nav-img{
     float:left;
@@ -24,7 +22,7 @@ nav {
     position: sticky;
     top: 0;
     background: rgba(255, 255, 255, 0.29);
-    border-radius: 12px;
+    border-radius: 28px;
     padding-left: 30px;
     padding-right: 30px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -66,7 +64,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color: #8aa5ff;
+    background-color: #ffffff4b;
 }
 
 nav .menu {
@@ -88,7 +86,7 @@ nav .menu span {
 }
 
 
-@media (max-width: 570px) {
+@media (max-width: 840px) {
     nav .menu {
         display: flex;
     }

@@ -1,21 +1,19 @@
 import { Route, Routes } from "react-router-dom";
-import Topnav from "./components/Topnav";
-import About from './pages/About';
-import Stats from './pages/Stats';
-import LeaderBoard from './pages/LeaderBoard';
-import Home from "./pages/Home";
-import Maps from './pages/Maps';
+import Home from "./pages/Home/Home";
+import Topnav from "./components/Nav/Topnav";
+import Maps from "./pages/Maps/Maps";
+import Ranks from "./pages/Ranks/Ranks";
+import Vote from "./pages/Vote/Vote";
 
 export default function App() {
   return (
     <div>
-      <Topnav />
+      <Topnav/>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
         <Route path="/maps" element={<Maps/>} />
-        <Route path="/stats" element={<Stats/>} />
-        <Route path="/leaderboard" element={<LeaderBoard/>} />
+        <Route path="/ranks" element={<Ranks/>} />
+        <Route path="/vote" element={<Vote/>} />
       </Routes>
     </div>
   )
