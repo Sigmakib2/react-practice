@@ -11,3 +11,24 @@
     color: white;
     margin-right: 20px;
 }
+.server-status-container{
+    text-align: center;
+}
+@media (max-width: 863px) {
+    .server-status-container {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .status {
+        margin-bottom: 10px; /* Add some margin between the spans */
+      }
+      
+      @media (max-width: 600px) {
+        .status {
+          display: block; /* Display spans as blocks on smaller screens */
+        }
+      }
+      
+
+}
