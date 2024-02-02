@@ -27,7 +27,7 @@ const Status = () => {
         <span className='status'>Can Join: <b>{serverData.players.max - serverData.players.now}</b></span>
         </div>
       ) : (
-        <p>Loading server data...</p>
+        <p className='status'>Loading server data...</p>
       )}
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Hero.css"
+import DiscordStatus from '../Discord/DiscordStatus';
 
 export default function Hero() {
     const [showPopup, setShowPopup] = useState(false);
@@ -29,7 +30,9 @@ export default function Hero() {
                     <div>
                         <h2 className="hero-title">Welcome to DynamicCraft Bangladesh</h2>
                         <p className="description">A Friendly Bangladeshi Minecraft Server for Everyone!</p>
+                        <DiscordStatus/>
                         <button onClick={handleCopyToClipboard} className="copyip" ><span id="myText">IP: play.dynamiccraft.xyz</span></button>
+                       
                         {showPopup && (
                             <div className="popup">
                                 <div style={{ display: 'flex', alignItems: 'center' }} onClick={closePopup}>
